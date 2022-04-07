@@ -27,5 +27,17 @@ Add a file named `.dependencies` at the root of your project:
 
 
 
-Lincance 
+Example 
+
+```java
+
+       	Log.e(TAG, "Country Code : "+ PhoneUtil.GetCountryZipCode(this));
+        Log.e(TAG, "Country Code : +"+ PhoneUtil.GetCountryZipCode(this));
+	
+	output:
+	
+	E/MainActivity: Country Code : 91
+	E/MainActivity: Country Code : +91
+
+```
 
